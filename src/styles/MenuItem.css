@@ -59,3 +59,36 @@
 
 
 
+
+.item-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .action-button {
+    background: #ff8504c0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .action-button:hover {
+    background: #e57300;
+  }
+  
+  .quantity {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  

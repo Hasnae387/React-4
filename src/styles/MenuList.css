@@ -54,6 +54,8 @@
   align-items: center;
 }
 
+
+
 .filter-icon input {
   padding-left: 30px; 
 }
@@ -63,4 +65,25 @@
   left: 8px;
   font-size: 16px;
   color: #666;
+}
+
+
+
+.cart-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  background: #ff8504c0;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-icon:hover {
+  background: #e57300;
 }
